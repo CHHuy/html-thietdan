@@ -1,0 +1,170 @@
+.back-to-top .triangle:nth-child(1) {
+    display: none;
+}
+
+.back-to-top .triangle:nth-child(3) {
+    display: none;
+}
+
+.back-to-top .triangle {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.3rem;
+}
+
+.back-to-top .triangle:nth-child(2)::after {
+    content: '\f077';
+    font-family: "Font Awesome 6 Pro";
+    font-size: 1.4rem;
+}
+
+.back-to-top {
+    border-radius: 100rem;
+    background-color: #E5F2FF;
+}
+
+.hbn-wave {
+    position: absolute;
+    bottom: -0.1rem;
+    z-index: 2;
+    width: 100%;
+}
+
+.hbn-wave img {
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+}
+
+.description-slider .swiper-slide {
+    transition: 1s;
+}
+
+.description-slider .swiper-slide-active {
+    transform: rotate(0) !important;
+    opacity: 1;
+}
+
+.description-slider .swiper {
+    padding: 0;
+    margin: 0;
+}
+
+.trust-content .t24 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.header-nav .menu-nav>.menu-list>.menu-item>.menu-link {
+    color: black;
+}
+
+.contact .titl {
+    width: 100%;
+}
+
+.road-slider {
+    width: 100%;
+    margin: auto;
+}
+
+.hbn-slider-thumb {
+    display: none !important;
+}
+
+.hbn-slider::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    z-index: 1;
+    display: block;
+}
+
+.hbn-slider-sl {
+    z-index: 3;
+}
+
+.hbn-content {
+    position: relative;
+    z-index: 5;
+}
+
+.custom-logo-link .header-icon {
+    display: block;
+    width: 100%;
+}
+
+.custom-logo-link .header-icon .icon {
+    width: 100%;
+}
+
+.sec-philo .philo-slider .philo-img {
+    padding-top: 0;
+    height: 100%;
+}
+
+.sec-philo .philo-slider .philo-img img {
+    display: none;
+}
+
+.sec-philo .philo-slider .philo-box {
+    border: 0.1rem solid #A3704B;
+    border-right: none;
+    position: static;
+    height: 100%;
+}
+
+.sec-philo .philo-slider .philo-row {
+    height: 100%;
+}
+
+.sec-philo .philo-slider .philo-col:nth-child(1) {
+    width: fit-content;
+    flex: unset;
+}
+
+@media screen and (min-width: 1201px) {
+    .sec-philo .philo-slider .swiper-wrapper {
+        gap: 2.4rem;
+    }
+
+    .sec-philo .philo-slider .swiper-slide {
+        width: fit-content;
+    }
+
+    .footer-item.col:nth-child(1) {
+        width: 35%;
+    }
+
+    .footer-item.col:nth-child(2) {
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .custom-banner .custom-banner-main .banner-wrapper {
+        min-height: 30.981481vw;
+    }
+
+    .custom-banner .custom-banner-main .banner-wrapper .mini-content .mini-title {
+        font-size: 8rem;
+    }
+}
+
+.footer-text {
+    max-width: 100%;
+    font-size: 1.8rem;
+}
+
+.hab-right-inner {
+    position: sticky;
+    top: 7rem;
+}

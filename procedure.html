@@ -1,0 +1,651 @@
+<!doctype html>
+<html dir="ltr" lang="vi">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Quy trình sản xuất - Thiet Dan Furniture</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png" />
+  <link rel="manifest" href="/images/favicons/site.webmanifest" />
+  <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#5bbad5" />
+  <link rel="shortcut icon" href="/images/favicons/favicon.ico" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="msapplication-config" content="/images/favicons/browserconfig.xml" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <link rel="canonical" href="http://" />
+  <meta name="title" content="Frontend Seed 5 - Title" />
+  <meta name="referrer" content="unsafe-url" />
+  <meta name="description" content="Frontend Seed 5 - Description" />
+
+  <meta property="fb:app_id" content="your_app_id" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:site_name" content="" />
+  <meta property="article:publisher" content="" />
+  <meta property="article:section" content="Article" />
+  <meta property="article:published_time" content="" />
+  <meta property="article:modified_time" content="" />
+  <meta property="og:updated_time" content="" />
+  <meta property="og:image" content="" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:description" content="" />
+  <meta name="twitter:title" content="" />
+  <meta name="twitter:site" content="" />
+  <meta name="twitter:image" content="" />
+  <meta name="twitter:creator" content="" />
+  <!-- App CSS -->
+  <style>
+    :root {
+      --theme-color: #007bff;
+      --bg-color: #ffffff;
+    }
+
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: inherit;
+    }
+
+    .app-loading {
+      background: var(--bg-color);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 9999;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @keyframes bouncing-loader {
+      to {
+        opacity: 0.1;
+        transform: translate3d(0, -1rem, 0);
+      }
+    }
+
+    .app-loading .bouncing-loader {
+      display: flex;
+      justify-content: center;
+    }
+
+    .app-loading .bouncing-loader>div {
+      width: 1rem;
+      height: 1rem;
+      margin: 3rem 0.2rem;
+      background: var(--theme-color);
+      border-radius: 50%;
+      animation: bouncing-loader 0.6s infinite alternate;
+    }
+
+    .app-loading .bouncing-loader>div:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .app-loading .bouncing-loader>div:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+  </style>
+
+  <!-- Script WP -->
+  <script type="text/javascript" src="js/jquery/jquery.min.js" id="jquery-core-js"></script>
+  <script type="text/javascript" src="js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+  <!-- Script WP end -->
+
+  <!--<link rel='preload' href='dist/app.min.css' as='style' onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="dist/app.min.css">
+  </noscript>-->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="customs/style.css" />
+  <link rel="stylesheet" href="css/style-rm.css" />
+  <link rel="stylesheet" href="css/backdoor.css" />
+</head>
+
+<body>
+  <div class="app-loading">
+    <div class="bouncing-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <div class="wrapper" id="site_wrapper">
+    <header class="hd">
+      <div class="container">
+        <div class="hd-wr">
+          <div class="hd-burger" id="hamburger">
+            <div class="burger">
+              <div class="hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+              </div>
+            </div>
+          </div>
+          <div class="custom-logo-link">
+            <a href="index.html" class="header-icon" rel="home" itemprop="url">
+              <div class="icon">
+                <img width="1145" height="205" src="images/uploads/2023/08/Logo-1.png" class="header-logo-image" alt=""
+                  decoding="async" />
+              </div>
+            </a>
+          </div>
+          <div class="lg">
+            <div class="lang">
+              <div class="lg-head">
+                <img src="images/uploads/flags/758158.svg" alt="" />
+
+                <span class="text"> VI </span>
+
+                <!-- <i class="fa-solid fa-caret-down"></i> -->
+              </div>
+              <ul class="lg-list">
+                <a href="index.html" class="lg-head en">
+                  <!-- <span class="icon"> -->
+                  <img src="images/uploads/flags/Britain-64.svg" alt="" />
+                  <!-- </span> -->
+                  <span class="text"> EN </span>
+                </a>
+              </ul>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+      <div class="mobile-overlay"></div>
+      <div class="mobile">
+        <div class="mobile-con">
+          <div class="mobile-wr">
+            <div class="mobile-nav">
+              <div class="menu-nav">
+                <ul id="menu-main-menu-vietnamese" class="menu-list">
+                  <li
+                    class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-527 current_page_item">
+                    <a class="menu-link" href="index.html">Trang chủ</a>
+                  </li>
+                  <li class="menu-item menu-item menu-item-type-post_type menu-item-object-page">
+                    <a class="menu-link" href="about.html">Giới thiệu</a>
+                  </li>
+                  <li class="menu-item menu-item menu-item-type-post_type menu-item-object-page">
+                    <a class="menu-link" href="product.html">Sản phẩm</a>
+                  </li>
+                  <li class="menu-item menu-item menu-item-type-post_type menu-item-object-page">
+                    <a class="menu-link" href="procedure.html">Quy trình sản
+                      xuất</a>
+                  </li>
+                  <li class="menu-item menu-item menu-item-type-post_type menu-item-object-page">
+                    <a class="menu-link" href="news.html">Tin tức</a>
+                  </li>
+                  <li class="menu-item menu-item menu-item-type-post_type menu-item-object-page">
+                    <a class="menu-link" href="contact.html">Liên hệ đặt hàng</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="mobile-td">
+            <img src="assets/img/mb-td.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main pt-none">
+      <!--  -->
+      <div class="re">
+        <section class="custom-banner">
+          <div class="custom-banner-main">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="banner-wrapper">
+                    <div class="banner-img">
+                      <img width="2560" height="1920" src="images/uploads/2024/01/IMG_0085-1-scaled.jpg"
+                        class="attachment-full size-full" alt="" decoding="async" />
+                    </div>
+                    <div class="container">
+                      <div class="mini-content">
+                        <h1 class="mini-title">Quy trình sản xuất</h1>
+                        <div class="mini-content-img">
+                          <img src="assets/images/diamond-svg-bg.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="banner-wrapper">
+                    <div class="banner-img">
+                      <img width="2560" height="1920" src="images/uploads/2024/01/IMG_0074-1-scaled.jpg"
+                        class="attachment-full size-full" alt="" decoding="async" />
+                    </div>
+                    <div class="container">
+                      <div class="mini-content">
+                        <h1 class="mini-title">Quy trình sản xuất</h1>
+                        <div class="mini-content-img">
+                          <img src="assets/images/diamond-svg-bg.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+        <div class="custom-line">
+          <div class="line-item left"></div>
+        </div>
+        <div class="breadcrumb-cs">
+          <div class="container">
+            <div class="breadcrumb">
+              <ul class="breadcrumb-list">
+                <li class="breadcrumb-item">
+                  <a href="index.html" class="breadcrumb-link">
+                    Trang chủ
+                  </a>
+                </li>
+                <li class="breadcrumb-item current">
+                  <a href="javascript:;" class="breadcrumb-link">
+                    <span class="breadcrumb-diamond">
+                      <img src="assets/images/daimond.png" alt="" />
+                    </span>
+                    Quy trình sản xuất
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="process-content">
+        <div class="container">
+          <div class="title-text">
+            <div class="title-text-head">
+              <h3 class="title-mini-text">Thiet Dan Furniture</h3>
+            </div>
+            <h4 class="title-big-text">Tham quan nhà máy</h4>
+            <div class="title-bg-prod">
+              <div class="title-bg-prod-img">
+                <img src="assets/images/bg-title-product.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="process-text">
+            <span class="process-text-item">
+              Quy trình sản xuất của Thiết Đan đã được cập nhật và cải thiện
+              liên tục qua nhiều năm học hỏi và không ngừng phấn đấu. Đồng
+              thời, công ty cũng luôn đặt mục tiêu cải tiến liên tục để tăng
+              hiệu quả công việc, năng xuất nhà máy cũng như chất lượng sản
+              phẩm. Với quy trình tiên tiến và tính kỷ luật cao, tiêu chí chất
+              lượng sản phẩm cao, Thiết Đan đã thành công trong việc làm hài
+              lòng khách hàng trong những năm qua từ những mẫu mã đơn giản cho
+              đến phức tạp.
+            </span>
+          </div>
+          <div class="process-wrapper">
+            <div class="process-item row">
+              <div class="process-left p" data-aos="zoom-in">
+                <h4 class="title">Nguyên vật liệu</h4>
+                <p class="text">
+                  Nguyên vật liệu sản xuất của nhà máy được lấy từ những nhà
+                  cung cấp uy tín, giàu kinh nghiệm và có kiến thức sâu về
+                  chất liệu gỗ để đảm bảo chất lượng sản phẩm từ khâu đầu
+                  tiên. Nguyên vật liệu cũng được sử lý qua các quá trình cần
+                  thiết trước khi được nhà máy tiếp nhận để tiến hành chế
+                  biến.
+                </p>
+              </div>
+
+              <div class="process-right o">
+                <div class="process-img" data-aos="zoom-in">
+                  <img width="2560" height="1920" src="images/uploads/2023/08/IMG_7675-scaled.jpg"
+                    class="attachment-full size-full" alt="" decoding="async" loading="lazy" />
+                </div>
+                <div class="process-scroll" data-aos="zoom-in">
+                  <span class="num">01</span>
+                  <span class="icon">
+                    <img src="assets/images/process-arrow-icon.svg" alt="" />
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="process-item row">
+              <div class="process-left" data-aos="zoom-in">
+                <h4 class="title">Sơ chế</h4>
+                <p class="text">
+                  Sơ chế là công đoạn đầu nhưng vô cùng quan trọng trong quá
+                  trình làm ra sản phẩm. Công đoạn này cũng được hỗ trợ bằng
+                  máy móc và trang thiết bị hiện đại được công ty đầu tư để
+                  đảm bảo từng bước trong sản xuất đều cho ra thành quả tốt
+                  nhất.
+                </p>
+              </div>
+
+              <div class="process-right">
+                <div class="process-img" data-aos="zoom-in">
+                  <img width="612" height="459" src="images/uploads/2023/09/IMG_7195_2-scaled-e1694575475720.jpg"
+                    class="attachment-full size-full" alt="" decoding="async" loading="lazy" />
+                </div>
+                <div class="process-scroll" data-aos="zoom-in">
+                  <span class="num">02</span>
+                  <span class="icon">
+                    <img src="assets/images/process-arrow-icon.svg" alt="" />
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="process-item row">
+              <div class="process-left p" data-aos="zoom-in">
+                <h4 class="title">Định hình</h4>
+                <p class="text">
+                  Máy móc và trang thiết bị cho khâu định hình quan trọng
+                  trong việc bảo đảm giảm thiểu lỗi do con người và giảm thiểu
+                  việc hư hao nguyên vật liệu.
+                </p>
+              </div>
+
+              <div class="process-right o">
+                <div class="process-img" data-aos="zoom-in">
+                  <img width="2560" height="1920" src="images/uploads/2024/01/IMG_0085-1-scaled.jpg"
+                    class="attachment-full size-full" alt="" decoding="async" loading="lazy" />
+                </div>
+                <div class="process-scroll" data-aos="zoom-in">
+                  <span class="num">03</span>
+                  <span class="icon">
+                    <img src="assets/images/process-arrow-icon.svg" alt="" />
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="process-item row">
+              <div class="process-left" data-aos="zoom-in">
+                <h4 class="title">Lắp ráp</h4>
+                <p class="text">
+                  Khâu lắp ráp được đội ngũ nhân viên tiến hành, giám sát và
+                  kiểm tra nghiêm ngặt.
+                </p>
+              </div>
+
+              <div class="process-right">
+                <div class="process-img" data-aos="zoom-in">
+                  <img width="2560" height="1920" src="images/uploads/2023/08/IMG_7411-scaled.jpg"
+                    class="attachment-full size-full" alt="" decoding="async" loading="lazy" />
+                </div>
+                <div class="process-scroll" data-aos="zoom-in">
+                  <span class="num">04</span>
+                  <span class="icon">
+                    <img src="assets/images/process-arrow-icon.svg" alt="" />
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="process-item row">
+              <div class="process-left p" data-aos="zoom-in">
+                <h4 class="title">Chà nhám</h4>
+                <p class="text">
+                  Bước chà nhám được thi hành nhiều lần trong quá trình sản
+                  xuất, từ độ nhám cao cho tới thấp để cho ra thành phẩm như ý
+                  khách hàng.
+                </p>
+              </div>
+
+              <div class="process-right o">
+                <div class="process-img" data-aos="zoom-in">
+                  <img width="2560" height="1920" src="images/uploads/2023/08/IMG_7707-scaled.jpg"
+                    class="attachment-full size-full" alt="" decoding="async" loading="lazy" />
+                </div>
+                <div class="process-scroll" data-aos="zoom-in">
+                  <span class="num">05</span>
+                  <span class="icon">
+                    <img src="assets/images/process-arrow-icon.svg" alt="" />
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="process-item row">
+              <div class="process-left" data-aos="zoom-in">
+                <h4 class="title">Sơn hoàn thiện</h4>
+                <p class="text">
+                  Việc sơn phết sản phẩm đòi hỏi nhân viên phải được đào tạo
+                  và có tay nghề cao để cho ra nước sơn đều và sản phẩm bắt
+                  mắt nhất. Thiết Đan đã dành nhiều năm huấn luyện và không
+                  ngừng nâng cao công cụ cũng như tay nghề của thợ sơn trong
+                  thời gian hoạt động.
+                </p>
+              </div>
+
+              <div class="process-right">
+                <div class="process-img" data-aos="zoom-in">
+                  <img width="2560" height="1920" src="images/uploads/2023/08/IMG_7274-scaled-e1694661790999.jpg"
+                    class="attachment-full size-full" alt="" decoding="async" loading="lazy" />
+                </div>
+                <div class="process-scroll" data-aos="zoom-in">
+                  <span class="num">06</span>
+                  <span class="icon">
+                    <img src="assets/images/process-arrow-icon.svg" alt="" />
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="process-item row">
+              <div class="process-left p" data-aos="zoom-in">
+                <h4 class="title">Đóng gói</h4>
+                <p class="text">
+                  Quá trình đóng gói cũng được chú trọng từ bao hàng cho đến
+                  cách đóng gói để đảm bảo chất lượng cho đến bước cuối cùng
+                  trước khi giao cho khách hàng.
+                </p>
+              </div>
+
+              <div class="process-right o">
+                <div class="process-img" data-aos="zoom-in">
+                  <img width="607" height="346" src="images/uploads/2023/08/media-img-6.jpg"
+                    class="attachment-full size-full" alt="" decoding="async" loading="lazy" />
+                </div>
+                <div class="process-scroll" data-aos="zoom-in">
+                  <span class="num">07</span>
+                  <span class="icon">
+                    <img src="assets/images/process-arrow-icon.svg" alt="" />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-bg">
+        <img src="assets/images/footer-bg.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="footer-top row">
+            <div class="footer-left col">
+              <div class="footer-logo">
+                <img src="images/uploads/2023/08/footer-logo.png" alt="" />
+              </div>
+              <div class="footer-sologan">
+                <p class="footer-text">
+                  Creating Life Of Comfortability And Elegance
+                </p>
+              </div>
+              <div class="footer-social">
+                <ul class="social-list">
+                  <li class="social-item">
+                    <a href="" class="social-item-link">
+                      <img src="images/uploads/2023/08/fb-svg.svg" alt="" />
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a href="" class="social-item-link">
+                      <img src="images/uploads/2023/08/instagram-2.svg" alt="" />
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a href="" class="social-item-link">
+                      <img src="images/uploads/2023/08/link-svg.svg" alt="" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-right col">
+              <div class="footer-email">
+                <div class="title">
+                  <span class="title-text">Đăng ký nhận tin</span>
+                </div>
+
+                <div class="wpcf7 no-js" id="wpcf7-f593-o2" lang="vi" dir="ltr">
+                  <div class="screen-reader-response">
+                    <p role="status" aria-live="polite" aria-atomic="true"></p>
+                    <ul></ul>
+                  </div>
+                  <form action="/vi/#wpcf7-f593-o2" method="post" class="wpcf7-form init" aria-label="Form liên hệ"
+                    novalidate="novalidate" data-status="init">
+                    <div style="display: none">
+                      <input type="hidden" name="_wpcf7" value="593" />
+                      <input type="hidden" name="_wpcf7_version" value="5.7.5.1" />
+                      <input type="hidden" name="_wpcf7_locale" value="vi" />
+                      <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f593-o2" />
+                      <input type="hidden" name="_wpcf7_container_post" value="0" />
+                      <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+                    </div>
+                    <div class="footer-input">
+                      <div class="footer-input-icon">
+                        <img src="assets/images/email-svg.png" alt="" />
+                      </div>
+                      <input class="wpcf7-form-control has-spinner wpcf7-submit input-hiden" id="submit_ft"
+                        type="submit" value="Gửi đi" />
+                      <span class="wpcf7-form-control-wrap" data-name="email-name"><input size="40"
+                          class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                          aria-required="true" aria-invalid="false" placeholder="Enter your e-mail address" value=""
+                          type="email" name="email-name" /></span>
+                      <span id="wpcf7-67d5221d8f018-wrapper" class="wpcf7-form-control-wrap Email-wrap" style="
+                            display: none !important;
+                            visibility: hidden !important;
+                          "><label for="wpcf7-67d5221d8f018-field" class="hp-message">Please leave this field
+                          empty.</label><input id="wpcf7-67d5221d8f018-field" class="wpcf7-form-control wpcf7-text"
+                          type="text" name="Email" value="" size="40" tabindex="-1"
+                          autocomplete="new-password" /></span>
+                    </div>
+                    <div class="btn-second btrn-style">
+                      <div id="form_ft" class="btn-wrapper">
+                        <span class="btn-text">Gửi</span>
+                      </div>
+                    </div>
+                    <div class="wpcf7-response-output" aria-hidden="true"></div>
+                  </form>
+                </div>
+              </div>
+              <div class="footer-link row">
+                <div class="footer-item col">
+                  <div class="title">
+                    <span class="title-text">Sản phẩm của chúng tôi</span>
+                  </div>
+                  <div class="footer-list">
+                    <ul id="menu-footer-col-1-vietnamese" class="footer-nav-list">
+                      <li class="footer-nav-link menu-item menu-item-type-taxonomy menu-item-object-category_products">
+                        <a class="" href="product.html">Bàn</a>
+                      </li>
+                      <li class="footer-nav-link menu-item menu-item-type-taxonomy menu-item-object-category_products">
+                        <a class="" href="product.html">Ghế</a>
+                      </li>
+                      <li class="footer-nav-link menu-item menu-item-type-taxonomy menu-item-object-category_products">
+                        <a class="" href="product.html">Giường</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="footer-item col">
+                  <div class="title">
+                    <span class="title-text">Liên kết nhanh</span>
+                  </div>
+                  <div class="footer-list">
+                    <ul id="menu-footer-col-2-vietnamese" class="footer-nav-list">
+                      <li class="footer-nav-link menu-item menu-item-type-post_type menu-item-object-page">
+                        <a class="" href="news.html">Tin tức</a>
+                      </li>
+                      <li class="footer-nav-link menu-item menu-item-type-post_type menu-item-object-page">
+                        <a class="" href="contact.html">Liên hệ đặt hàng</a>
+                      </li>
+                      <li class="footer-nav-link menu-item menu-item-type-post_type menu-item-object-page">
+                        <a class="" href="procedure.html">Quy trình sản xuất</a>
+                      </li>
+                      <li class="footer-nav-link menu-item menu-item-type-post_type menu-item-object-page">
+                        <a class="" href="product.html">Sản phẩm</a>
+                      </li>
+                      <li class="footer-nav-link menu-item menu-item-type-post_type menu-item-object-page">
+                        <a class="" href="about.html">Giới thiệu</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="back-to-top backToTop">
+      <div class="triangle"></div>
+      <div class="triangle"></div>
+      <div class="triangle"></div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+    crossorigin="anonymous"></script>
+  <!-- Core JavaScript -->
+  <!--<script src="dist/core.min.js"></script>-->
+  <script src="third_party/modernizr.min.js"></script>
+  <!-- End Core JavaScript -->
+
+  <!-- JavaScript -->
+  <!--<script src="dist/app.min.js"></script>-->
+  <script src="js/common.js"></script>
+  <script src="customs/script.js"></script>
+  <!-- End JavaScript -->
+
+  <!-- JavaScript WP -->
+  <script src="js/library/jquery/jquery.js"></script>
+  <script src="js/library/swiper/swiper-bundle.min.js"></script>
+  <script src="js/library/aos/aos.js"></script>
+  <script src="js/library/select2/select2.min.js"></script>
+  <script src="js/library/gallery/lightgallery-all.min.js"></script>
+  <script src="js/library/jquery/jquery-migrate.js"></script>
+  <script src="js/library/isotope/isotope.pkgd.min.js"></script>
+  <script src="js/library/datetime/moment.min.js"></script>
+  <script src="js/library/datetime/daterangepicker.min.js"></script>
+  <script src="js/library/smoothscroll/SmoothScroll.min.js"></script>
+  <script src="js/library/splitting/splitting.min.js"></script>
+  <script src="js/library/fancybox/fancybox.umd.js"></script>
+  <script src="js/library/gsap/gsap.min.js"></script>
+  <script src="js/library/gsap/ScrollTrigger.min.js"></script>
+  <script src="js/main.js" type="module"></script>
+  <!-- JavaScript WP end -->
+</body>
+
+</html>

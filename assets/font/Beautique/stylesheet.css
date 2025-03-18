@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Beautique Display';
+    src: url('BeautiqueDisplay-Black.woff2') format('woff2'),
+        url('BeautiqueDisplay-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beautique Display Condensed It';
+    src: url('BeautiqueDisplayCondensed-Italic.woff2') format('woff2'),
+        url('BeautiqueDisplayCondensed-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beautique Display Condensed';
+    src: url('BeautiqueDisplayCondensed-Light.woff2') format('woff2'),
+        url('BeautiqueDisplayCondensed-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beautique Display';
+    src: url('BeautiqueDisplay-Black.woff2') format('woff2'),
+        url('BeautiqueDisplay-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beautique Display';
+    src: url('BeautiqueDisplay-Bold.woff2') format('woff2'),
+        url('BeautiqueDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beautique Display Condensed It';
+    src: url('BeautiqueDisplayCondensed-BoldItalic.woff2') format('woff2'),
+        url('BeautiqueDisplayCondensed-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beautique Display Condensed';
+    src: url('BeautiqueDisplayCondensed-Bold.woff2') format('woff2'),
+        url('BeautiqueDisplayCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beautique Display Condensed';
+    src: url('BeautiqueDisplayCondensed-Black.woff2') format('woff2'),
+        url('BeautiqueDisplayCondensed-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beautique Display';
+    src: url('BeautiqueDisplay-Italic.woff2') format('woff2'),
+        url('BeautiqueDisplay-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beautique Display Condensed';
+    src: url('BeautiqueDisplayCondensed-Medium.woff2') format('woff2'),
+        url('BeautiqueDisplayCondensed-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beautique Display Condensed';
+    src: url('BeautiqueDisplayCondensed-Regular.woff2') format('woff2'),
+        url('BeautiqueDisplayCondensed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beautique Display';
+    src: url('BeautiqueDisplay-Medium.woff2') format('woff2'),
+        url('BeautiqueDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beautique Display';
+    src: url('BeautiqueDisplay-Regular.woff2') format('woff2'),
+        url('BeautiqueDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beautique Display';
+    src: url('BeautiqueDisplay-LightItalic.woff2') format('woff2'),
+        url('BeautiqueDisplay-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beautique Display';
+    src: url('BeautiqueDisplay-Light.woff2') format('woff2'),
+        url('BeautiqueDisplay-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
